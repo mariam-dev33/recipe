@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.4;
+  display: grid;
+  justify-content: center;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.main {
+  min-height: 100vh;
+  align-items: center;
+}
+
+.card {
+  padding: 40px;
+  margin: 20px solid white;
+  background-color: white;
+  max-width: 1000px;
+  width: 850px;
+  color: hsl(30, 10%, 34%);
+  border-radius: 25px;
+  margin: 80px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 30px;
+}
+
+.recipe {
+  margin: 1rem 0;
+}
+
+.recipe h1 {
+  letter-spacing: 1px;
+  font-family: "Young Serif", serif;
+}
+
+.recipe p {
+  margin-top: 20px;
+}
+
+.time {
+  margin-top: 40px;
+  background-color: hsl(330, 100%, 98%);
+  border: 20px solid hsl(330, 100%, 98%);
+  border-radius: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.time h1 {
+  color: hsl(332, 51%, 32%);
+}
+
+.time ul li {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.time ul li span {
+  color: hsl(24, 5%, 18%);
+  font-weight: 600;
+}
+
+.ingreds h1 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 500;
+  font-family: "Young Serif", serif;
+  margin-top: 30px;
+}
+
+.ingreds ul li {
+  margin-bottom: 0.7em;
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.instructions h1 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+}
+
+.instructions ol {
+  padding-left: 40px;
+}
+
+.instructions ol li {
+  margin-bottom: 0.7em;
+  margin-top: 10px;
+}
+
+.instructions ol li span {
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+}
+
+.nutrition h1 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+}
+
+.nutrition p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nutrition .table ul {
+  list-style: none;
+}
+
+.nutrition .table ul li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nutrition .table span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.nutrition .table hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
